@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
 import Dictaphone from './components/Dictaphone'
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 function App() {
   return (
